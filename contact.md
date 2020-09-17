@@ -4,41 +4,14 @@ title: Contact
 ---
 
 <section class="bg-contact">
-  
+
   <h1 class="text-center text-uppercase text-primary mb-0">Contact me !!!</h1>
-  
+
   <div class="container pt-5 pb-3 w-100">
     <div class="row">
-      <div class="col-md-4 mb-3 mb-md-0">
-        <div class="card py-4 h-100">
-          <div class="card-body text-center">
-            <i class="fas fa-map-marked-alt text-primary h1 mb-2"></i>
-            <h4 class="text-uppercase m-0">Address</h4>
-            <hr class="my-4" />
-            <div class="small text-black-50">Tu Son, Bac Ninh, Viet Nam</div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-3 mb-md-0">
-        <div class="card py-4 h-100">
-          <div class="card-body text-center">
-            <i class="fas fa-envelope text-primary h1 mb-2"></i>
-            <h4 class="text-uppercase m-0">Email</h4>
-            <hr class="my-4" />
-            <div class="small text-black-50">tuananh2106a2@gmail.com</div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-3 mb-md-0">
-        <div class="card py-4 h-100">
-          <div class="card-body text-center">
-            <i class="fas fa-mobile-alt text-primary h1 mb-2"></i>
-            <h4 class="text-uppercase m-0">Phone</h4>
-            <hr class="my-4" />
-            <div class="small text-black-50">+84 392 707 434</div>
-          </div>
-        </div>
-      </div>
+      {% for contact in site.data.contacts %}
+      {% include card.md title=contact.title icon=contact.icon body=contact.body %}
+      {% endfor %}
     </div>
 
     <hr class="my-4">
@@ -75,5 +48,5 @@ title: Contact
         </div>
       </div>
     </div>
-    
+  </div>
 </section>
