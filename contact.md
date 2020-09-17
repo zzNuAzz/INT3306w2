@@ -66,15 +66,15 @@ title: Contact
             </li>
             <li class="list-inline-item">
               <a href="https://github.com/zzNuAzz">
-                <span class="fa-stack fa-lg h1">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                 <i class="fab fa-github fa-stack-1x fa-inverse"></i>
                 </span>
               </a>
             </li>
           </ul>
         </div>
       </div>
-    </div>
+    </div>   <span class="fa-stack fa-lg h1">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+              
   </div>
 </section>
