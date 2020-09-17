@@ -6,7 +6,7 @@ title: Home
 <header class="masthead bg-primary text-white text-center">
     <div class="container d-flex align-items-center flex-column">
         <!-- Masthead Avatar Image-->
-        <img class="masthead-avatar mb-5" src="/INT3306week2/assets/avatar.svg" alt="" />
+        <img class="masthead-avatar mb-5" src="/assets/avatar.svg" alt="" />
         <!-- Masthead Heading-->
         <h1 class="masthead-heading mb-4">Tran Tuan Anh</h1>
         <!-- Icon Divider-->
