@@ -3,11 +3,10 @@ layout: default
 title: Contact
 ---
 
-
 <section class="bg-contact">
-   <!-- Contact Section Heading-->
-   <h1 class="text-center text-uppercase text-primary mb-0">Contact me !!!</h1>
-   <!-- Icon Divider-->
+  
+  <h1 class="text-center text-uppercase text-primary mb-0">Contact me !!!</h1>
+  
   <div class="container pt-5 pb-3 w-100">
     <div class="row">
       <div class="col-md-4 mb-3 mb-md-0">
@@ -66,15 +65,15 @@ title: Contact
             </li>
             <li class="list-inline-item">
               <a href="https://github.com/zzNuAzz">
-                 <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                <span class="fa-stack fa-lg h1">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
                 </span>
               </a>
             </li>
           </ul>
         </div>
       </div>
-    </div>   <span class="fa-stack fa-lg h1">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-              
-  </div>
+    </div>
+    
 </section>
